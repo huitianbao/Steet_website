@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Flapper">
+  <DataContextMoniker Name="/FlapperDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b20a5863-1eaf-49a4-b200-56151470f871" absoluteBounds="4.625, 1.375, 2, 1.5373050944010416">
+      <DataClassMoniker Name="/FlapperDataContext/Flapper" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc1da36d-a6be-4d37-8ed6-5365a05cd2ad" absoluteBounds="4.64, 1.835, 1.9700000000000002, 0.97730509440104174" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a86a2429-fa40-440f-bba1-fa0e86145efd" absoluteBounds="1.5, 1.25, 2, 1.5373050944010416">
+      <DataClassMoniker Name="/FlapperDataContext/HotRolling" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aef204e1-d132-4c3b-9224-ff94c9ac46d2" absoluteBounds="1.5150000000000001, 1.71, 1.9700000000000002, 0.97730509440104174" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="58501df3-199a-4a34-834d-a3e481888a02" absoluteBounds="3.875, 3.625, 2, 1.7220992024739581">
+      <DataClassMoniker Name="/FlapperDataContext/Table" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b042a83-71fd-4821-9712-5f82564f0171" absoluteBounds="3.89, 4.085, 1.9700000000000002, 1.1620992024739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ca839c08-1193-426d-81cd-626980278c46" absoluteBounds="4.25, 5.625, 2, 1.3525109863281251">
+      <DataClassMoniker Name="/FlapperDataContext/MyLogin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68a2e832-f7d9-461b-a176-47d34502caf6" absoluteBounds="4.265, 6.085, 1.9700000000000002, 0.792510986328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

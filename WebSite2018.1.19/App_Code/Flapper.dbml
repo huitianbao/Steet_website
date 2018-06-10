@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Flapper" Class="FlapperDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Flapper.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FlapperConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Flapper" Member="Flapper">
+    <Type Name="Flapper">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="牌号" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="种类" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="牌号描述" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HotRolling" Member="HotRolling">
+    <Type Name="HotRolling">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="品名" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="规格" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="牌号" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Table]" Member="Table">
+    <Type Name="Table">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="仓库名称" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="联系方式" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="简称" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="简码" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MyLogin" Member="MyLogin">
+    <Type Name="MyLogin">
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="pass" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tel" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

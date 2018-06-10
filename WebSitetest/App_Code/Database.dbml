@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database" Class="DatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[Table]" Member="Table">
+    <Type Name="Table">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TableFlapper" Member="TableFlapper">
+    <Type Name="TableFlapper">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="牌号" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="种类" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="牌号描述" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TableHotRolling" Member="TableHotRolling">
+    <Type Name="TableHotRolling">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="品名" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="规格" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[产地(无限制)]" Member="产地_无限制_" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="过磅价格" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="理算价格" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="[地域/仓库]" Member="地域_仓库" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="牌号" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TableWareHouse" Member="TableWareHouse">
+    <Type Name="TableWareHouse">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="仓库名称" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="联系方式" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="简称" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="简码" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="备注" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

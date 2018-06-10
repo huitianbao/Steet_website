@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DatabaseHottingRolling">
+  <DataContextMoniker Name="/DatabaseHottingRollingDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e62ef9d5-c997-49c7-a8b6-d67b9d6a5ac1" absoluteBounds="5.125, 3.25, 2, 2.4612756347656251">
+      <DataClassMoniker Name="/DatabaseHottingRollingDataContext/TableHotting" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fb8fdbed-30db-479a-90ed-c6cd49591f64" absoluteBounds="5.14, 3.71, 1.9700000000000002, 1.901275634765625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

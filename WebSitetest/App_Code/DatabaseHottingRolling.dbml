@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DatabaseHottingRolling" Class="DatabaseHottingRollingDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DatabaseHottingRolling.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DatabaseHottingRollingConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TableHotting" Member="TableHotting">
+    <Type Name="TableHotting">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="品名" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="规格" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="牌号" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[产地(无限制)]" Member="产地_无限制_" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="过磅价格" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="理算价格" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="[地域/仓库]" Member="地域_仓库" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="备注" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

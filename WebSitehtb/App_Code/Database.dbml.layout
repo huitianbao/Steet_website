@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Database">
+  <DataContextMoniker Name="/DatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ecf6e737-b6f8-4bec-a12a-c60466639fab" absoluteBounds="4.625, 1.625, 2, 1.5373050944010416">
+      <DataClassMoniker Name="/DatabaseDataContext/TableFlapper" />
+      <nestedChildShapes>
+        <elementListCompartment Id="880149fe-b9c9-4e08-af81-316967c59f59" absoluteBounds="4.64, 2.085, 1.9700000000000002, 0.97730509440104174" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5bdc5da1-9347-4032-813d-d6e8dcf5ec73" absoluteBounds="4.25, 3.5, 2, 2.4612756347656251">
+      <DataClassMoniker Name="/DatabaseDataContext/TableHotrolling" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ddac2081-3007-4ead-8cfc-77ad74a97318" absoluteBounds="4.265, 3.96, 1.9700000000000002, 1.901275634765625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2fbde255-dce9-4557-920f-78f1209d14a3" absoluteBounds="1.25, 1, 2, 1.9068933105468751">
+      <DataClassMoniker Name="/DatabaseDataContext/TableWarehouse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b709164-7819-4dfc-af8e-9b914b5b8022" absoluteBounds="1.2649999999999997, 1.46, 1.9700000000000002, 1.346893310546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
